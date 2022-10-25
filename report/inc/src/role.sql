@@ -1,0 +1,7 @@
+CREATE USER guest WITH PASSWORD 'guest';
+
+GRANT CONNECT ON DATABASE db_delays TO guest;
+GRANT USAGE ON SCHEMA public TO guest;
+
+GRANT SELECT ON ALL TABLES IN SCHEMA public TO guest;
+GRANT EXECUTE ON FUNCTION get_ac_operator TO guest;

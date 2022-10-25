@@ -1,0 +1,157 @@
+\begin{thebibliography}{10}
+\def\selectlanguageifdefined#1{
+\expandafter\ifx\csname date#1\endcsname\relax
+\else\language\csname l@#1\endcsname\fi}
+\ifx\undefined\url\def\url#1{{\small #1}}\else\fi
+\ifx\undefined\BibUrl\def\BibUrl#1{\url{#1}}\else\fi
+\ifx\undefined\BibAnnote\long\def\BibAnnote#1{(#1)}\else\fi
+\ifx\undefined\BibEmph\def\BibEmph#1{\emph{#1}}\else\fi
+
+\bibitem{oreilly}
+\selectlanguageifdefined{english}
+Kleppmann~M. Designing Data-Intensive Applications: The Big Ideas Behind
+  Reliable, Scalable, and Maintainable Systems.
+\newblock O’Reilly Media, Inc., 2017.
+\newblock P.~14--15.
+
+\bibitem{rest-api}
+\selectlanguageifdefined{russian}
+Automated Example Oriented REST API.
+\newblock Режим доступа:
+  \url{https://ase.cpsc.ucalgary.ca/wp-content/uploads/2018/05/Automated-Example-Oriented-REST-API.pdf}.
+\newblock Дата обращения: 01.10.2021.
+
+\bibitem{iso-db}
+\selectlanguageifdefined{russian}
+ISO/IEC TR 10032:2003 Information technology — Reference Model of Data
+  Management.
+\newblock Режим доступа:
+  \url{https://www.iso.org/standard/38607.html}.
+\newblock Дата обращения: 01.10.2021.
+
+\bibitem{dbinfo}
+\selectlanguageifdefined{russian}
+Дж~Дейт~К. Введение в системы баз данных.
+\newblock <<Вильямс>>, 2006.
+
+\bibitem{postgres}
+\selectlanguageifdefined{russian}
+PostgreSQL: The World's Most Advanced Open Source Relational Database.
+\newblock Режим доступа: \url{https://www.postgresql.org/}.
+\newblock Дата обращения: 01.10.2021.
+
+\bibitem{oracle}
+\selectlanguageifdefined{russian}
+Oracle Database.
+\newblock Режим доступа: \url{https://www.oracle.com/database/}.
+\newblock Дата обращения: 01.10.2021.
+
+\bibitem{mssql}
+\selectlanguageifdefined{russian}
+MS SQL Server 2019.
+\newblock Режим доступа:
+  \url{https://www.microsoft.com/en-us/sql-server/sql-server-2019}.
+\newblock Дата обращения: 01.10.2021.
+
+\bibitem{indexes}
+\selectlanguageifdefined{russian}
+PostgreSQL Indexes.
+\newblock Режим доступа:
+  \url{https://www.postgresql.org/docs/13/indexes.html}.
+\newblock Дата обращения: 01.10.2021.
+
+\bibitem{redis}
+\selectlanguageifdefined{russian}
+Redis Documentation.
+\newblock Режим доступа: \url{https://redis.io/documentation}.
+\newblock Дата обращения: 01.10.2021.
+
+\bibitem{leveldb}
+\selectlanguageifdefined{russian}
+LevelDB Documentation.
+\newblock Режим доступа:
+  \url{https://github.com/google/leveldb/blob/master/doc/index.md}.
+\newblock Дата обращения: 01.10.2021.
+
+\bibitem{lru}
+\selectlanguageifdefined{russian}
+An Evaluation of Buffer Management Strategies for Relational Database Systems.
+\newblock Режим доступа:
+  \url{http://www.vldb.org/conf/1985/P127.PDF}.
+\newblock Дата обращения: 01.10.2021.
+
+\bibitem{2q}
+\selectlanguageifdefined{russian}
+2Q: A Low Overhead High Performance Buffer Management Replacement Algorithm.
+\newblock Режим доступа:
+  \url{http://www.vldb.org/conf/1994/P439.PDF}.
+\newblock Дата обращения: 01.10.2021.
+
+\bibitem{replication}
+\selectlanguageifdefined{russian}
+IMPLEMENTING A MASTER/SLAVE ARCHITECTURE FOR A DATA SYNCHRONIZATION SERVICE.
+\newblock Режим доступа:
+  \url{https://www.theseus.fi/bitstream/handle/10024/143791/Nikolay_Baychenko.pdf}.
+\newblock Дата обращения: 01.10.2021.
+
+\bibitem{sharding}
+\selectlanguageifdefined{russian}
+Sharding by Hash Partitioning. A database scalability pattern to achieve evenly
+  sharded database clusters.
+\newblock Режим доступа:
+  \url{https://www.researchgate.net/publication/276075813_Sharding_by_Hash_Partitioning_-_A_Database_Scalability_Pattern_to_Achieve_Evenly_Sharded_Database_Clusters}.
+\newblock Дата обращения: 01.10.2021.
+
+\bibitem{chen}
+\selectlanguageifdefined{russian}
+The Entity-Relationship Model--Toward a Unified View of Data.
+\newblock Режим доступа:
+  \url{https://dspace.mit.edu/bitstream/handle/1721.1/47432/entityrelationshx00chen.pdf}.
+\newblock Дата обращения: 01.10.2021.
+
+\bibitem{lxc}
+\selectlanguageifdefined{russian}
+LXC - Documentation.
+\newblock Режим доступа:
+  \url{https://linuxcontainers.org/lxc/documentation/}.
+\newblock Дата обращения: 01.10.2021.
+
+\bibitem{ubuntu}
+\selectlanguageifdefined{russian}
+OS Ubuntu.
+\newblock Режим доступа: \url{https://ubuntu.com/}.
+\newblock Дата обращения: 01.10.2021.
+
+\bibitem{sha256}
+\selectlanguageifdefined{russian}
+Verification of a Cryptographic Primitive: SHA-256.
+\newblock Режим доступа:
+  \url{https://www.cs.princeton.edu/~appel/papers/verif-sha.pdf}.
+\newblock Дата обращения: 01.10.2021.
+
+\bibitem{python}
+\selectlanguageifdefined{russian}
+Python 3 language official page.
+\newblock Режим доступа: \url{https://www.python.org/}.
+\newblock Дата обращения: 01.10.2021.
+
+\bibitem{vscode}
+\selectlanguageifdefined{russian}
+Редактор кода VS Code.
+\newblock Режим доступа: \url{https://code.visualstudio.com/}.
+\newblock Дата обращения: 01.10.2021.
+
+\bibitem{flask}
+\selectlanguageifdefined{russian}
+Flask's documentation.
+\newblock Режим доступа:
+  \url{https://flask.palletsprojects.com/en/2.0.x/}.
+\newblock Дата обращения: 01.10.2021.
+
+\bibitem{locust}
+\selectlanguageifdefined{russian}
+Locust - A modern load testing framework.
+\newblock Режим доступа: \url{https://locust.io/}.
+\newblock Дата обращения: 01.10.2021.
+
+\end{thebibliography}
